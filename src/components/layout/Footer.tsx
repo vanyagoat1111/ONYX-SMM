@@ -28,8 +28,8 @@ export function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4">Контакты</h4>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li><a href="tel:+79923767525" className="hover:text-onyx-300 transition-colors">+7 (992) 376-75-25</a></li>
-              <li><a href="https://t.me/onyxcoorp" target="_blank" rel="noopener noreferrer" className="hover:text-onyx-300 transition-colors">Telegram: @onyxcoorp</a></li>
+              <li><a href="tel:+79223767525" className="hover:text-onyx-300 transition-colors">+7 (922) 376-75-25</a></li>
+              <li><a href="https://t.me/mynameisbutati" target="_blank" rel="noopener noreferrer" className="hover:text-onyx-300 transition-colors">Telegram: @mynameisbutati</a></li>
               <li><a href="mailto:butatygoth@mail.ru" className="hover:text-onyx-300 transition-colors">butatygoth@mail.ru</a></li>
             </ul>
           </div>

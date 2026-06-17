@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Download, Rss } from 'lucide-react';
+import { ArrowRight, Download, Rss, Gift } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -14,15 +14,12 @@ export function Hero() {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-onyx-300/30 bg-onyx-300/10 text-onyx-300 text-sm font-medium mb-6">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-onyx-300 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-onyx-300"></span>
-              </span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-onyx-300/50 bg-onyx-300/20 text-onyx-300 text-sm font-bold mb-6 shadow-[0_0_15px_rgba(204,255,0,0.3)]">
+              <Gift className="w-4 h-4 text-onyx-300" />
               Сайт в подарок при заказе
             </div>
-            <h1 className="text-5xl md:text-7xl font-display font-bold leading-[1.1] mb-6">
-              Получайте клиентов из <span className="text-transparent bg-clip-text bg-gradient-to-r from-onyx-300 to-onyx-500">соцсетей</span>, пока вы занимаетесь бизнесом.
+            <h1 className="text-4xl md:text-6xl font-display font-bold leading-[1.1] mb-6">
+              <span className="text-onyx-300">Получайте клиентов</span> из соцсетей, пока вы занимаетесь бизнесом.
             </h1>
             <p className="text-lg text-gray-400 mb-8 max-w-xl leading-relaxed">
               Мы берём на себя контент, Reels, ведение соцсетей и создание продающего сайта. Без найма команды в штат. <span className="text-white font-medium">Сайт — в подарок.</span>

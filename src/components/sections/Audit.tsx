@@ -70,7 +70,7 @@ export function Audit() {
                 ))}
               </ul>
               <div className="mt-8 pt-8 border-t border-onyx-glass-border">
-                <p className="text-sm text-gray-400 text-center">Мы свяжемся с вами в течение рабочего дня.</p>
+                <p className="text-sm text-onyx-300 font-medium text-center">Оставляйте заявку и мы свяжемся с вами в течение рабочего дня</p>
               </div>
             </div>
           </div>

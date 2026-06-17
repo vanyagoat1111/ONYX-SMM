@@ -12,6 +12,7 @@ import { Audit } from './components/sections/Audit';
 import { Trust } from './components/sections/Trust';
 import { Services } from './components/sections/Services';
 import { QualityControl } from './components/sections/QualityControl';
+import { Romi } from './components/sections/Romi';
 import { Stages } from './components/sections/Stages';
 import { Checklist } from './components/sections/Checklist';
 import { FaqAndContact } from './components/sections/FaqAndContact';
@@ -30,6 +31,7 @@ export default function App() {
         <Trust />
         <Services />
         <QualityControl />
+        <Romi />
         <Stages />
         <Checklist />
         <FaqAndContact />

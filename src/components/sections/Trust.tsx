@@ -14,9 +14,9 @@ const reasons = [
 
 export function Trust() {
   return (
-    <section className="py-32 bg-onyx-dark-800">
+    <section id="trust" className="py-32 bg-onyx-dark-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl md:text-5xl font-display font-bold mb-16 text-center">Почему предприниматели <span className="text-onyx-300">доверяют нам</span></h2>
+        <h2 className="text-4xl md:text-5xl font-display font-bold mb-16 text-center">Почему предприниматели <span className="text-onyx-300">доверяют нам</span> свой маркетинг</h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {reasons.map((reason, i) => (

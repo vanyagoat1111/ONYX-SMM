@@ -66,7 +66,7 @@ export function Cases() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
          <div className="mb-20">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Доказанные <span className="text-onyx-300">результаты</span></h2>
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Наши <span className="text-onyx-300">кейсы</span></h2>
           <p className="text-gray-400 text-lg max-w-2xl">Не показываем красивые картинки без цифр. Каждый кейс — это бизнес-задача, которую мы решили с помощью грамотного SMM.</p>
         </div>
 

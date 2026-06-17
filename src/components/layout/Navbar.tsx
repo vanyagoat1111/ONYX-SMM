@@ -6,6 +6,7 @@ export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
+    { href: "#trust", label: "Почему мы?" },
     { href: "#services", label: "Услуги" },
     { href: "#cases", label: "Кейсы" },
     { href: "#audit", label: "Бесплатный аудит" },
