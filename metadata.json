@@ -1,0 +1,6 @@
+{
+  "name": "ONYX SMM Agency",
+  "description": "A modern, high-conversion landing page for an SMM agency with acid-green accents and glassmorphism.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
