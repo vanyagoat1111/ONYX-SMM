@@ -11,6 +11,7 @@ import { Solutions } from './components/sections/Solutions';
 import { Audit } from './components/sections/Audit';
 import { Trust } from './components/sections/Trust';
 import { Services } from './components/sections/Services';
+import { QualityControl } from './components/sections/QualityControl';
 import { Stages } from './components/sections/Stages';
 import { Checklist } from './components/sections/Checklist';
 import { FaqAndContact } from './components/sections/FaqAndContact';
@@ -28,6 +29,7 @@ export default function App() {
         <Audit />
         <Trust />
         <Services />
+        <QualityControl />
         <Stages />
         <Checklist />
         <FaqAndContact />

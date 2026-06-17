@@ -92,10 +92,10 @@ export function Cases() {
               </div>
               <div className="md:w-2/3 flex flex-col justify-center">
                 <p className="text-gray-300 text-lg leading-relaxed mb-10">{c.description}</p>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className={`grid gap-2 md:gap-4 ${c.images.length === 4 ? 'grid-cols-2 md:grid-cols-4' : 'grid-cols-3'}`}>
                   {c.images.map((imgSrc, imgIdx) => (
-                    <div key={imgIdx} className={`relative aspect-[9/16] rounded-2xl overflow-hidden bg-onyx-dark-900 border border-onyx-glass-border group/img ${imgIdx > 1 ? 'hidden md:block' : ''}`}>
-                      <img src={imgSrc} alt={`Кейс ${c.title} изображение ${imgIdx + 1}`} className="w-full h-full object-cover opacity-80 group-hover/img:opacity-100 transition-opacity duration-500 my-auto grayscale-0" />
+                    <div key={imgIdx} className={`relative aspect-[9/16] rounded-2xl overflow-hidden bg-onyx-dark-900 border border-onyx-glass-border group/img flex items-center justify-center`}>
+                      <img src={imgSrc} alt={`Кейс ${c.title} изображение ${imgIdx + 1}`} className="max-w-full max-h-full object-contain opacity-80 group-hover/img:opacity-100 transition-opacity duration-500 p-1 md:p-2 grayscale-0" />
                     </div>
                   ))}
                 </div>

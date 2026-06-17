@@ -28,9 +28,9 @@ export function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4">Контакты</h4>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-onyx-300 transition-colors">Telegram</a></li>
-              <li><a href="#" className="hover:text-onyx-300 transition-colors">WhatsApp</a></li>
-              <li><a href="mailto:hello@onyxsmm.ru" className="hover:text-onyx-300 transition-colors">hello@onyxsmm.ru</a></li>
+              <li><a href="tel:+79923767525" className="hover:text-onyx-300 transition-colors">+7 (992) 376-75-25</a></li>
+              <li><a href="https://t.me/onyxcoorp" target="_blank" rel="noopener noreferrer" className="hover:text-onyx-300 transition-colors">Telegram: @onyxcoorp</a></li>
+              <li><a href="mailto:butatygoth@mail.ru" className="hover:text-onyx-300 transition-colors">butatygoth@mail.ru</a></li>
             </ul>
           </div>
         </div>
